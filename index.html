@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"/>
+    <title>Galería de fotos</title>
+    <style>
+        .grupo {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .imagen {
+            text-align: center;
+            width: 300px; /* Ancho fijo para las imágenes */
+            margin-bottom: 20px; /* Espacio entre las imágenes */
+        }
+        .imagen img {
+            width: 100%; /* Para que las imágenes ocupen todo el ancho del contenedor */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<header class="container-fluid bg-primary text-white py-3">
+    <h2 class="text-center">Mi página</h2>
+</header>
+
+<div class="container d-flex flex-column align-items-center">
+    <h1 class="text-center">Galería de fotos</h1>
+    <h2 class="text-center">Elija un grupo fotográfico</h2>
+</div>
+
+<section class="container mt-5">
+    <div class="grupo">
+        <div class="imagen">
+            <img src="Images/Leopard.jpg" alt="Leopardo de las Nieves">
+            <p>Descripción de la imagen 1</p>
+            <button class="btn btn-primary">Ver fotos</button>
+        </div>
+        <div class="imagen">
+            <img src="Images/Owl.jpg" alt="Búho">
+            <p>Descripción de la imagen 2</p>
+            <button class="btn btn-primary">Ver fotos</button>
+        </div>
+        <div class="imagen">
+            <img src="Images/spagcat.jpg" alt="Felino de las salsas">
+            <p>Descripción de la imagen 3</p>
+            <button class="btn btn-primary">Ver fotos</button>
+        </div>
+    </div>
+</section>
+
+<footer class="footer bg-dark text-white p-2">
+    <div class="d-flex justify-content-between text-white p-5">
+      <div class="px-3">
+        <h4>Sobre Nosotros</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis
+          scelerisque fermentum dui faucibus in ornare. Quis imperdiet massa
+          tincidunt nunc. A lacus vestibulum sed arcu non odio euismod lacinia
+          at. At augue eget arcu dictum varius duis. Sociis natoque penatibus
+          et magnis dis parturient. Sed arcu non odio euismod lacinia at quis
+          risus. Egestas quis ipsum suspendisse ultrices gravida. Sit amet
+          risus nullam eget felis eget. Interdum consectetur libero id
+        </p>
+      </div>
+      <div class="px-3">
+        <h4>Agradecimientos</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis
+          scelerisque fermentum dui faucibus in ornare. Quis imperdiet massa
+          tincidunt nunc. A lacus vestibulum sed arcu non odio euismod lacinia
+          at. At augue eget arcu dictum varius duis. Sociis natoque penatibus
+          et magnis dis parturient. Sed arcu non odio euismod lacinia at quis
+          risus. Egestas quis ipsum suspendisse ultrices gravida. Sit amet
+          risus nullam eget felis eget. Interdum consectetur libero id
+        </p>
+      </div>
+    </div>
+    <div class="w-100 bg-dark text-center">© 2024 Copyright: UFRO.cl</div>
+  </footer>
+
+</body>
+</html>
